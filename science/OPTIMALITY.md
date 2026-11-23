@@ -68,7 +68,7 @@ P_3=2q_1-2\max\{0,\Delta-B\}
 =2\min\{q_1,q_2,q_3,\ q_1q_2+q_1q_3+q_2q_3-q_1q_2q_3\}.
 ```
 
-To see the correction explicitly, compare the four even–odd differences. The difference for the pair $000,111$ is nonnegative. The differences for even $101$ and $110$ are nonpositive. The remaining difference, for even $011$, equals $-\Delta$ and is at least the differences for $101$ and $110$. For example $p_{011}-p_{100}-(p_{101}-p_{010})=q_2-q_1$. Thus if $\Delta\leq 0$, zero is a median and the bound $2q_1$ is already achieved by complementary swapping. If $\Delta>0$, the median nearest zero is $-\Delta$, and the allowed negative shift has magnitude at most $p_{111}=B$. The complementary protocol yields $2q_1-2\max\{0,\Delta\}$ by summing the four smaller pair weights. The gain is $2\min\{B,\max(0,\Delta)\}$, yielding the formula.
+To see the correction explicitly, compare the four even–odd differences. The difference for the pair $000,111$ is nonnegative. The differences for even $101$ and $110$ are nonpositive. The remaining difference, for even $011$, equals $-\Delta$ and is at least the differences for $101$ and $110$. For example $p_{011}-p_{100}-(p_{101}-p_{010})=q_2-q_1$. Thus if $\Delta\leq 0$, zero is a median and the bound $2q_1$ is already achieved by complementary swapping. If $\Delta>0$, the median nearest zero is $-\Delta$, and the allowed negative shift has magnitude at most $p_{111}=B$. The complementary protocol yields $`2q_1-2\max\{0,\Delta\}`$ by summing the four smaller pair weights. The gain is $`2\min\{B,\max(0,\Delta)\}`$, yielding the formula.
 
 For identical links this simplifies to
 

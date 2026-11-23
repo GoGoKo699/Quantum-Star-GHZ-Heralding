@@ -46,7 +46,7 @@ Transpose is taken in the common string basis. Therefore $\sum_j\sigma_j=D_p$. A
 
 ## Benchmarks
 
-- **Complementary swapping.** Project in the GHZ basis made of the plus and minus superpositions of $x$ and $\bar x$, then concentrate each branch using its known amplitudes. The optimal probability from this branchwise route, even with optimal leaf filtering after this fixed measurement, is $2\sum_{\{x,\bar x\}}\min(p_x,p_{\bar x})$. The same probability can be obtained by balancing at the hub before the GHZ readout. See [the comparison](../references/RELATED.md).
+- **Complementary swapping.** Project in the GHZ basis made of the plus and minus superpositions of $x$ and $\bar x$, then concentrate each branch using its known amplitudes. The optimal probability from this branchwise route, even with optimal leaf filtering after this fixed measurement, is $`2\sum_{\{x,\bar x\}}\min(p_x,p_{\bar x})`$. The same probability can be obtained by balancing at the hub before the GHZ readout. See [the comparison](../references/RELATED.md).
 - **Leaf cut.** Across the cut separating leaf $i$ from every other laboratory, the source has Schmidt probabilities $(1-q_i,q_i)$ and the target has $(1/2,1/2)$. The single-copy stochastic conversion bound gives $P\leq 2q_i$ even for arbitrary local operations and classical communication across the star. Taking the minimum bounds every star protocol. See [Vidal and the scope of the cut bound](../references/RELATED.md).
 
 Across the lattice, stations may also act jointly on distinct local qubits delivered by different stars in a subsequent [fusion stage](NETWORK.md). This stage is outside the definition of a single star attempt.

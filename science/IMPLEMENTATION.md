@@ -36,6 +36,6 @@ For identical input pairs, both diagonal rotation angles depend only on Hamming 
 
 ## Three identical links
 
-Write $`q_*=(3-\sqrt{5})/2`$. For $`0<q\leq q_*`$, choose the odd parity branch with $`a=q^3`$. The all-ones string then uses a filter success amplitude of one. The three Hamming-weight-one strings use the same success amplitude $`q/(1-q)`$, by substituting $`p_x=q(1-q)^2`$. All even strings have zero success amplitude in this first filter. The parity branch contributes $`4q^3`$, and the complementary branch contributes $`6q^2(1-q)`$. This gives $`6q^2-2q^3`$ and includes the critical regime of the [honeycomb protocol](NETWORK.md).
+Write $`q_*=(3-\sqrt{5})/2`$. For $`0\lt q\leq q_*`$, choose the odd parity branch with $`a=q^3`$. The all-ones string then uses a filter success amplitude of one. The three Hamming-weight-one strings use the same success amplitude $`q/(1-q)`$, by substituting $`p_x=q(1-q)^2`$. All even strings have zero success amplitude in this first filter. The parity branch contributes $`4q^3`$, and the complementary branch contributes $`6q^2(1-q)`$. This gives $`6q^2-2q^3`$ and includes the critical regime of the [honeycomb protocol](NETWORK.md).
 
 For $`q>q_*`$, set $`a=q(1-q)(1-2q)`$, so that the resulting total probability attains the cut bound $`2q`$. At $`q=1/2`$, this choice reduces to the ordinary deterministic GHZ readout.
