@@ -6,7 +6,7 @@ One known pure qubit pair per edge supplies the star. The hub makes a joint meas
 
 ## One accepted label
 
-Let $`D=\operatorname{diag}(p_x)`$ be the leaf marginal in the joint Schmidt basis. For a normalized pre-correction state $`|\psi\rangle`$ in the local-unitary GHZ orbit, the highest single-label probability is
+Let $`D=\mathrm{diag}(p_x)`$ be the leaf marginal in the joint Schmidt basis. For a normalized pre-correction state $`|\psi\rangle`$ in the local-unitary GHZ orbit, the highest single-label probability is
 
 ```math
 \lambda(\psi)=\frac{1}{\langle\psi|D^{-1}|\psi\rangle}.
@@ -65,4 +65,4 @@ An analogous minimum holds for every even $`N`$ with full-support input and a pa
 
 ## Bell links and the adaptive converse
 
-With Bell links the familiar GHZ basis has $`2^N`$ equiprobable correction words. A selected subset gives success probability $`M_{\mathrm{acc}}/2^N`$ up to $`2^N`$ words. On this endpoint the exact cap follows from the single-label formula. The companion project proves the same $`2^{-N}`$ cap per accepted transcript even for arbitrary independent bipartite resources and adaptive LOCC when no source joins two outputs. Its result also applies to $`d`$-level targets. The fixed calibrated input and the rotated partial-link instrument are the complementary contribution here. [GHZ Communication Cost](https://github.com/GoGoKo699/GHZ-Communication-Cost) · [Companion converse](https://github.com/GoGoKo699/GHZ-Communication-Cost/blob/0a66b7a4f3c3002813bacb261902060fd98b379d/science/expected-and-heralded.md#exact-heralding-without-sources-between-outputs)
+With Bell links the familiar GHZ basis has $`2^N`$ equiprobable correction words. A selected subset gives success probability $`M_{\mathrm{acc}}/2^N`$ up to $`2^N`$ words. On this endpoint the exact cap follows from the single-label formula. The companion project proves the same $`2^{-N}`$ cap per accepted transcript even for arbitrary independent bipartite resources and adaptive LOCC when no source joins two outputs. Its result also applies to $`d`$-level targets. The fixed calibrated input and the rotated partial-link instrument are the complementary contribution here. [GHZ Communication Cost](https://github.com/GoGoKo699/GHZ-Communication-Cost) · [Companion converse](https://github.com/GoGoKo699/GHZ-Communication-Cost/blob/1549e98fc8740266012bd143dc5e7189274229a5/science/expected-and-heralded.md#exact-heralding-without-sources-between-outputs)
