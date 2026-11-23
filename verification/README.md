@@ -16,3 +16,11 @@ The checks use a fixed random seed and cover four parts of the calculation.
 | Honeycomb thresholds | An exact rational grid check verifies both homogeneous three-link probability polynomials. Bisection against triangular site occupation probability $1/2$ gives $q=0.3045468489842$ with the parity-adjusted hub instrument and $q=0.3263518223331$ with complementary concentration. The latter also equals the link-weight threshold obtained by filtering links independently and applying the honeycomb bond threshold. |
 
 The rational simplex check uses the generators directly and does not use the median formula. The numerical amplitude checks use an absolute tolerance of $10^{-12}$. The verification concerns the ideal finite-star model and the resulting analytic percolation thresholds.
+
+## Four accepted labels
+
+```sh
+python3 verification/check_four_labels.py
+```
+
+This exact rational certificate constructs the four rotated GHZ kets at $q=2/5$. It bounds each absolute row sum of the whitened Gram matrix by one using a rational upper bound for the square roots of products of outcome weights. The bound certifies that the four hub effects fit one POVM. Their traces on the input sum to $22979693/50000000$. The analytical strict upper bound and complementary-basis optimum are proved in [the broadcast analysis](../science/COMMUNICATION.md#four-accepted-labels-at-the-same-calibration).

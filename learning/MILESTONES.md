@@ -1,6 +1,6 @@
 # Project understanding map
 
-The 30 milestones follow the science from independent qubit pairs to the success law and its honeycomb application. Twelve background milestones build the operating model from its individual quantum objects. Eighteen narrative milestones have room for the diagonal constraint, a constructive measurement, the exact three-leaf consequence and the network interpretation.
+The 30 milestones follow the science from independent qubit pairs to the success law, broadcast budgets and the honeycomb application. Twelve background milestones build the operating model from its individual quantum objects. Eighteen narrative milestones cover the diagonal constraint, a constructive measurement, the exact three-leaf consequences and the network interpretation.
 
 Use the [Watrous bridge](WATROUS_BRIDGE.md) to locate sections in the educational anchor and follow a complete example. The scientific sources carry the full arguments. A target marks what the reader should be able to explain after studying that milestone.
 
@@ -9,7 +9,7 @@ Use the [Watrous bridge](WATROUS_BRIDGE.md) to locate sections in the educationa
 | Background | [M01](#m01-qubit-bases-and-bitstrings)–[M05](#m05-the-leaf-marginal) | Product Schmidt amplitudes determine the leaf marginal |
 | Background | [M06](#m06-the-ghz-target)–[M12](#m12-the-one-way-star-task) | The exact target, measurement records and scope define the success objective |
 | Narrative | [M13](#m13-the-complementary-cat-branches)–[M20](#m20-the-clipped-median) | Complementary-pair budgets give the even and odd optima |
-| Narrative | [M21](#m21-coherent-probability-allocation)–[M27](#m27-the-weakest-link-cut) | The hub instrument attains the formula and reaches the three-link cut bound in a definite regime |
+| Narrative | [M21](#m21-coherent-probability-allocation)–[M27](#m27-the-weakest-link-cut) | The hub instrument attains the formula, and counting broadcast labels constrains the success probability |
 | Narrative | [M28](#m28-independent-star-occupations)–[M30](#m30-the-complete-scientific-story) | The local gain shifts a lattice threshold under the specified model |
 
 ## Phase I · Background and preliminaries
@@ -296,13 +296,13 @@ Use the [Watrous bridge](WATROUS_BRIDGE.md) to locate sections in the educationa
 
 **Central question.** How do the two branches fit into an allowed star protocol?
 
-**Understanding target.** Account for the hub meter, conditional basis readout, classical label and final leaf unitaries. Explain why the hub can perform its own feed-forward before sending a single message.
+**Understanding target.** Account for the hub meter, conditional basis readout, classical label and final leaf unitaries. Explain why the hub can perform its own feed-forward before sending a single message and how to count outcome words, including failure.
 
 **Dependencies and story role.** M09, M12 and M21–M23. Synthesizes the optimal construction.
 
 **Conceptual connection.** Homogeneous links yield weight-based filter tables. The theorem fixes success probability even when table preparation and controlled rotations are costly.
 
-**Sources.** [Model](../science/MODEL.md) · [Implementation](../science/IMPLEMENTATION.md)
+**Sources.** [Model](../science/MODEL.md) · [Implementation](../science/IMPLEMENTATION.md) · [Broadcast budgets](../science/COMMUNICATION.md)
 
 ### M25 Three unequal links
 
@@ -320,13 +320,13 @@ Use the [Watrous bridge](WATROUS_BRIDGE.md) to locate sections in the educationa
 
 **Central question.** How do the parity and complementary success contributions add at a particular calibration?
 
-**Understanding target.** Trace the calculation at smaller Schmidt probability 2/5, including capacities, selected shift, branch yields and the final probability 4/5.
+**Understanding target.** Trace the calculation at smaller Schmidt probability 2/5, including capacities, selected shift, branch yields and the final probability 4/5. Recover the one-label probability from the rank-one effect and explain why it multiplies by three at two bits.
 
 **Dependencies and story role.** M20–M25. Makes the resource allocation concrete before the lattice application.
 
 **Conceptual connection.** The matched complementary yield is 0.704 because it balances the original four pairs without a parity assignment.
 
-**Sources.** [Watrous bridge example](WATROUS_BRIDGE.md#worked-example-with-three-identical-links) · [Verification](../verification/README.md)
+**Sources.** [Watrous bridge example](WATROUS_BRIDGE.md#worked-example-with-three-identical-links) · [Broadcast example](WATROUS_BRIDGE.md#charge-the-broadcast-on-the-same-example) · [Verification](../verification/README.md)
 
 ### M27 The weakest-link cut
 
@@ -368,10 +368,10 @@ Use the [Watrous bridge](WATROUS_BRIDGE.md) to locate sections in the educationa
 
 **Central question.** Which parts of the result survive as the physical model changes?
 
-**Understanding target.** Summarize the exact even and odd optima, reconstruct how the hub attains them, and distinguish finite-star optimality, the lattice protocol threshold and noisy-output guarantees.
+**Understanding target.** Summarize the exact even and odd optima, reconstruct how the hub attains them, and distinguish finite-star optimality, broadcast-limited heralding, the lattice protocol threshold and noisy-output guarantees.
 
 **Dependencies and story role.** M12, M16, M20, M24 and M27–M29. Integrates the full contribution.
 
 **Conceptual connection.** The input marginal constrains every success. Orthogonal local GHZ columns determine what its diagonal can spend. The same argument guides the constructive instrument and tells where its assumptions matter.
 
-**Sources.** [Model](../science/MODEL.md) · [Optimality](../science/OPTIMALITY.md) · [Implementation](../science/IMPLEMENTATION.md) · [Network](../science/NETWORK.md) · [Robustness](../science/ROBUSTNESS.md) · [Verification](../verification/README.md)
+**Sources.** [Model](../science/MODEL.md) · [Optimality](../science/OPTIMALITY.md) · [Implementation](../science/IMPLEMENTATION.md) · [Broadcast budgets](../science/COMMUNICATION.md) · [Network](../science/NETWORK.md) · [Robustness](../science/ROBUSTNESS.md) · [Verification](../verification/README.md)

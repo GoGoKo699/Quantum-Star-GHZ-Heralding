@@ -9,8 +9,8 @@ The educational anchor is John Watrous, *The Theory of Quantum Information* (Cam
 | Route | What it explains |
 |---|---|
 | [M01–M12](MILESTONES.md#m01-qubit-bases-and-bitstrings) | How independent qubit pairs, hub measurements and local corrections define the task |
-| [M13–M24](MILESTONES.md#m13-the-complementary-cat-branches) | How the target's diagonal constrains the yield and how the hub attains it |
-| [M25–M30](MILESTONES.md#m25-three-unequal-links) | Three-link examples, the weakest-link bound, the honeycomb threshold and the scope of the result |
+| [M13–M24](MILESTONES.md#m13-the-complementary-cat-branches) | How the target's diagonal constrains the yield, how the hub attains it and how its broadcast labels are counted |
+| [M25–M30](MILESTONES.md#m25-three-unequal-links) | Three-link examples, small broadcast budgets, the weakest-link bound and the honeycomb threshold |
 
 For the literature and the numerical checks, see [related work](../references/RELATED.md) and [verification](../verification/README.md).
 
