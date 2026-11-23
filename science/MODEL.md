@@ -39,7 +39,7 @@ For a hub POVM effect $E_j$, the unnormalized conditional state of the leaves is
 ```math
 \sigma_j=D_p^{1/2}E_j^{\mathsf T}D_p^{1/2},
 \qquad
-D_p=\operatorname{diag}(p_x).
+D_p=\mathrm{diag}(p_x).
 ```
 
 Transpose is taken in the common string basis. Therefore $\sum_j\sigma_j=D_p$. A successful outcome must have a rank-one leaf state in the local-unitary orbit of the target, with its trace giving the probability of that label. Failure outcomes can be arbitrary. This remains valid when some $p_x$ are zero because the relation is applied on the support of $D_p$.

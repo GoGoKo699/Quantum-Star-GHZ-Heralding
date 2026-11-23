@@ -1,0 +1,3 @@
+# Scientific account
+
+The [model](MODEL.md) formulates exact GHZ heralding from fixed pure links. The [optimality proof](OPTIMALITY.md) explains why complementary strings suffice on an even star and how odd parity changes the feasible diagonals. The [instrument](IMPLEMENTATION.md) turns the maximizing diagonal into a physical hub measurement and gives the necessary classical corrections. The [honeycomb application](NETWORK.md) propagates the three-link gain to a lattice with ideal local fusion. The [robustness results](ROBUSTNESS.md) distinguish finite implementation errors, herald loss and phase noise from the exact pure-state transition.

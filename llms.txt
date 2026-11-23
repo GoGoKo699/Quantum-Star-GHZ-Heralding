@@ -1,0 +1,21 @@
+# Quantum Star GHZ Heralding
+
+> Exact one-way heralding of a leaf GHZ state from calibrated pure qubit pairs, with optimal even/odd star protocols and a single-layer honeycomb application.
+
+## Read the result
+- [Project overview](README.md): headline result, representative three-link values and project navigation.
+- [Scientific account](science/README.md): links to the results by topic.
+- [Star model](science/MODEL.md): input promise, allowed controls, success criterion and matched baselines.
+- [Exact optimality](science/OPTIMALITY.md): complement symmetry, odd parity, median optimization and three-leaf case.
+- [Hub instrument](science/IMPLEMENTATION.md): coherent filters, readout, corrections and resources.
+- [Honeycomb application](science/NETWORK.md): independent site reduction, exact threshold and Bell routing.
+- [Robustness](science/ROBUSTNESS.md): star and path guarantees under specified errors.
+
+## Verify or study
+- [Related work](references/RELATED.md): inherited concentration, percolation and transformation results.
+- [Verification](verification/README.md): runnable finite checks and tested domains.
+- [Learning guide](learning/README.md): the Watrous anchor and reading sequence.
+- [Watrous bridge](learning/WATROUS_BRIDGE.md): from measurements and entanglement to the star proof.
+- [Milestones](learning/MILESTONES.md): 30 stages from Schmidt tools through the lattice and noise model.
+
+The exact optimum is for hub instruments and unitary leaf corrections. The lattice threshold concerns independent hub preparation at one color class and ideal local fusion. A stronger LOCC claim is made only where a cut bound is attained.
