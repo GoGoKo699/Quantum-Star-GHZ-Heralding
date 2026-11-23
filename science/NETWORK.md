@@ -43,6 +43,8 @@ The triangular-lattice site threshold is [exactly $1/2$](https://people.math.har
 | Complementary-GHZ basis and concentration | $\frac12-\sin(\pi/18)\approx 0.326351822$ | $6q^2-4q^3=1/2$ |
 | Optimized hub instrument | $0.304546849\ldots$ | $6q^2-2q^3=1/2$ |
 
+Independent edge filtering gives open honeycomb bonds with probability $2q$. The honeycomb bond threshold is $1-2\sin(\pi/18)$, so this baseline has the same critical $q$ as complementary preparation. The new interval therefore improves both same-lattice benchmarks.
+
 Both critical weights are the unique roots in $(0,1/2)$ of the displayed equations. The optimized root is on the cubic branch since $1/2<2(3-\sqrt5)/2$, the site probability at the switch to the linear branch. At the exact test point $q=5/16$, the baseline has $p=475/1024<1/2$, whereas the optimized instrument has $p=1075/2048>1/2$. The resource requirements still include one calibrated pure pair per edge and ideal local operations. The improved instrument uses a local meter and calibrated rotations at each hub. The critical weights describe independent exact-GHZ preparation followed by routing on retained states. A protocol that keeps failed fragments or processes neighboring stars jointly before declaring their heralds has a different optimization problem.
 
 The local probability theorem is in [Optimality](OPTIMALITY.md), the circuit in [Implementation](IMPLEMENTATION.md), and the finite-path noise calculation in [Robustness](ROBUSTNESS.md).

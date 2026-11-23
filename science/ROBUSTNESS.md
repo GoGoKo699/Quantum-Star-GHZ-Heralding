@@ -54,3 +54,9 @@ F_H=\tfrac12\left[1+\prod_{v\in H}\prod_{i\in K_v}(1-2e_{v,i})\right],
 ```
 
 where $C$ and $H$ are the complementary and parity branches along the path, and $K_v$ is the pair of qubits kept from star $v$. Empty products equal one. At equal $e$, the exponents of $(1-2e)$ in the first and second factors are $3|C|$ and $2|H|$. This formula makes separate predictions for successful routing and fidelity after routing. A positive connection probability over long distances can coexist with the accumulation of both types of Pauli errors.
+
+## Flagged loss after exact preparation
+
+Suppose a successful, otherwise ideal three-leaf state is independently discarded with probability $\ell$ and the extra discard is announced. Conditional on survival, the state is still exact GHZ. The occupation events remain independent and the [network threshold](NETWORK.md#threshold-and-matched-comparison) is reached when $(1-\ell)P_3(q)>1/2$.
+
+At $q=5/16$, exact preparation gives $P_3=1075/2048$. The protocol remains supercritical for $\ell<51/1075$, or about $4.74\%$ extra loss per successful star. The baseline's occupation probability is already below one half at this link strength. This margin applies to independent flagged discards. For an unflagged gate or link error, use the fidelity measures above.
